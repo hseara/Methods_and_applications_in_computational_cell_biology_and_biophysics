@@ -1,0 +1,167 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Beamer Presentation
+% LaTeX Template
+% Version 1.0 (10/11/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND THEMES
+%----------------------------------------------------------------------------------------
+
+\documentclass[10pt]{beamer}              % only frames
+
+\usepackage{tikz}
+%\usepackage{pgf}
+\usepackage{pgfpages}
+%\setbeameroption{show notes on second screen=right}
+%\setbeameroption{show notes}
+\usetikzlibrary{shapes,arrows}
+\mode<presentation> {
+  \usetheme{Madrid}
+  \usecolortheme{dolphin}
+}
+
+\usepackage{graphicx} % Allows including images
+\graphicspath{{figs/}} % Directory in which figures are stored
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage{animate}
+\usepackage{multimedia}
+\usepackage{caption}
+\usepackage{subcaption}
+\usepackage{tcolorbox}
+\usepackage{appendixnumberbeamer}
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\title[Methods computational Biology]{{\huge Methods and applications in computational cell biology and biophysics}} % The short title appears at the bottom of every slide, the full title is only on the title page
+
+\author[H.Martinez-Seara \& L. Cwiklik]{Lecturers: \textbf{Dr.~Hector~Martinez-Seara \& Dr.~hab.~Lukasz~Cwiklik} Supervisor:~\textbf{Prof.~Pavel~Jungwirth}} % Your name
+\institute[] % Your institution as it will appear on the bottom of every slide, may be shorthand to save space
+{
+Charles University - Faculty XXX, Prague, Czech Republic \\ % Your institution for the title page
+\medskip
+\textit{hseara@uochb.cas.cz, lukasz.cwiklik@jh-inst.cas.cz} % Your email address
+}
+\date{\today}
+
+\begin{document}
+
+%-----------------------------------------------------------
+\begin{frame}
+  \titlepage % Print the title page as the first slide
+  \begin{center}
+    \vspace{-1cm}
+    \includegraphics[width=0.3\textwidth]{logos/UOCHB_IOCB-logo.pdf}
+  \end{center}
+\end{frame}
+
+%-----------------------------------------------------------
+\begin{frame}{Program} 
+\tableofcontents [hideallsubsections]
+\end{frame}
+
+%-----------------------------------------------------------
+\section{Overview of computational strategies applied to cell and macromolecular imaging}
+%-----------------------------------------------------------
+\begin{frame}{Program} 
+\tableofcontents [sectionstyle=show/shaded,subsectionstyle=show/show/hide] 
+\end{frame}
+%-----------------------------------------------------------
+
+\subsection{Introduction to pattern and morphology recognition}
+
+\subsection{Image manipulation methods}
+
+\subsection{Concepts of probability theory applied to pattern recognition}
+
+\subsection{Choosing an appropriate model for a given biological system and phenomenon}
+
+\subsection{Decision theory as methodology behind pattern and morphology recognition techniques}
+
+\subsection{Machine learning applied to image recognition}
+
+\subsection{Data mining and high-throughput data analysis}
+
+%-----------------------------------------------------------
+\section{Overview of computational methods in  biological problems: from atomistic to macroscopic approaches}
+%-----------------------------------------------------------
+\begin{frame}{Program} 
+\tableofcontents [sectionstyle=show/shaded,subsectionstyle=show/show/hide] 
+\end{frame}
+
+\subsection{Modeling biosystems at atomistic resolution}
+
+\subsection{Modeling of mesoscopic and macroscopic biological systems}
+
+\subsection{Network analysis and kinetics in biosystems}
+
+
+%-----------------------------------------------------------
+\section{Software and computational tools in computational biology}
+%-----------------------------------------------------------
+\begin{frame}{Program} 
+\tableofcontents [sectionstyle=show/shaded,subsectionstyle=show/show/hide] 
+\end{frame}
+
+\subsection{General programming platforms optimal for biological problems}
+
+\subsection{Image processing software}
+
+\subsection{Choosing a proper software for a particular computational biological problem}
+
+\subsection{Machine learning}
+
+\begin{frame}{slides}
+
+\end{frame}
+%-----------------------------------------------------------
+%\section*{Slidehola}
+%-----------------------------------------------------------
+
+% For those slides that might be interesting or covering advanced topics but still
+%  ouside the real scope of the course.
+\appendix
+%-----------------------------------------------------------
+\begin{frame}{Supporting slides}
+
+\end{frame}
+
+\end{document}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% TEMPLATES SLIDES (add more if needed) %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{frame}{Title}
+  \begin{columns}[c]
+  %Left column  
+  \column{.45\textwidth} % Left column and width
+    \begin{block}{ BLOCK1}
+      \begin{itemize}
+        \item bla bla. 
+        \item blc blc
+      \end{itemize}
+    \end{block}
+    %Right column  
+    \column{.45\textwidth} % Right column and width
+    \includegraphics[width=1.0\linewidth]{fig_whatever.png}
+  
+  \end{columns}
+\end{frame}
+\note{
+  \begin{itemize}
+    \item note a
+    \item note b
+  \end{itemize}
+}
+
+

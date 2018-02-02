@@ -1,0 +1,48 @@
+# Core latex/pdflatex auxiliary files:
+*.aux
+*.lof
+*.lot
+*.fls
+*.toc
+*.fmt
+*.fot
+*.cb
+*.cb2
+*.auxlock
+*.log
+*.nav
+*.out
+*.snm
+
+## Intermediate documents:
+*.dvi
+*.xdv
+*-converted-to.*
+
+## Bibliography auxiliary files (bibtex/biblatex/biber):
+*.bbl
+*.bcf
+*.blg
+*-blx.aux
+*-blx.bib
+acs*.bib
+*.run.xml
+
+## Build tool auxiliary files:
+*.fdb_latexmk
+*.synctex
+*.synctex(busy)
+*.synctex.gz
+*.synctex.gz(busy)
+*.pdfsync
+
+## Avoid Mac crap
+.DS_Store
+
+## Folders
+cache/
+cache-SI/
+
+## Specific files
+Methods_and_applications_in_computational_cell_biology_and_biophysics.pdf
+.directory
